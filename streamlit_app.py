@@ -49,7 +49,7 @@ def get_fruit_load_list():
       
 def insert_row(new_fruit):
       with my_cnx.cursor() as my_cur:
-            my_cur.execute("insert into fruit_load_list values ('streamlit')      
+            my_cur.execute("insert into fruit_load_list values ('streamlit')")      
             return "Thanks for adding " + new_fruit
             
       
